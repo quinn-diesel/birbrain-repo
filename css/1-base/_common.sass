@@ -5,7 +5,8 @@ h1,h2,h3,h6
   text-transform: uppercase
 
 h1, h2
-  font-size: 5em
+  font-size: 4em
+  padding: 20px
 
 h3
   font-size: 1em
@@ -13,9 +14,12 @@ h3
 h5,a
   font-size: 0.75em
 
+.container
+  max-width: 800px
+  margin: 0 auto
+
 nav
   +clearfix
-
 
 nav
   @include grid-column(12)
@@ -28,13 +32,13 @@ nav
   +clearfix
 
 .option
+  text-align: center
   @include grid-column(4)
-  float: center
+  @media screen and (max-width: 767px)
+    @include grid-column(12)
 
 .punchline
   @include grid-column(12)
   @include grid-container
   float: left
   +clearfix
-a
-  color: #006400
