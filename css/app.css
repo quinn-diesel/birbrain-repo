@@ -2590,6 +2590,17 @@ h5 {
   margin-left: 20px;
   min-height: 200px; }
 
+.branding {
+  text-align: right;
+  z-index: -1; }
+  .branding object {
+    width: 600px;
+    height: 500px; }
+    @media screen and (max-width: 767px) {
+      .branding object {
+        width: 200px;
+        height: 150px; } }
+
 nav {
   float: right;
   font-weight: bold;

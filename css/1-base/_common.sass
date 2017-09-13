@@ -59,10 +59,20 @@ h5
   float: left
   +clearfix
 
-
 .diagonal
   background: #175289
   transform-origin: 100%
   background-image: -webkit-linear-gradient(84deg, #175289 50%, #FFFFFF 50%)
   @include grid-column(12)
   min-height: 200px
+
+
+.branding
+  text-align: right
+  z-index: -1
+  object
+      width: 600px
+      height: 500px
+      @media screen and (max-width: 767px)
+        width: 200px
+        height: 150px
