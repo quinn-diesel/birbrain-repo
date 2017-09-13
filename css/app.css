@@ -2510,11 +2510,14 @@ h1, h2 {
   font-size: 4em;
   padding: 20px; }
 
+h1 {
+  margin-bottom: 0px; }
+
 h3 {
   font-size: 1em;
   padding: 20px; }
 
-h5, a {
+h5 {
   font-size: 0.75em;
   text-align: center; }
 
@@ -2524,20 +2527,6 @@ h5, a {
 
 .fa {
   padding: 10px; }
-
-nav::after {
-  clear: both;
-  content: "";
-  display: table; }
-
-nav {
-  width: calc(100% - 40px);
-  float: left;
-  margin-left: 20px; }
-  nav::after {
-    clear: both;
-    content: "";
-    display: table; }
 
 .options {
   width: calc(100% - 40px);
@@ -2592,11 +2581,13 @@ nav {
   font-weight: bold;
   text-transform: uppercase; }
   nav ul {
-    text-align: right; }
+    text-align: right;
+    color: #313838; }
   nav li {
-    display: inline; }
+    display: inline;
+    padding: 10px; }
     nav li:hover {
-      background: darkblue;
+      background: #313838;
       color: white; }
     nav li a {
       display: inline-block;
