@@ -2592,7 +2592,8 @@ h5 {
 
 .branding {
   text-align: right;
-  z-index: -1; }
+  z-index: -1;
+  position: relative; }
   .branding object {
     width: 600px;
     height: 500px; }
