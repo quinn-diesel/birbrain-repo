@@ -2642,6 +2642,9 @@ nav {
     nav li:hover {
       background: #313838;
       color: white; }
+      @media screen and (max-width: 767px) {
+        nav li:hover {
+          background: transparent; } }
 
 footer {
   width: calc(100% - 40px);
