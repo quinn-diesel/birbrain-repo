@@ -2620,6 +2620,12 @@ a {
         width: 300px;
         height: 300px; } }
 
+.js-menu-trigger {
+  display: none !important; }
+  @media screen and (max-width: 767px) {
+    .js-menu-trigger {
+      display: inline !important; } }
+
 nav {
   float: right;
   font-weight: bold;
@@ -2655,8 +2661,8 @@ footer {
   right: auto;
   bottom: 0;
   left: 0;
-  height: 220px;
-  width: 220px;
+  height: auto;
+  width: auto;
   background: #404040;
   -webkit-overflow-scrolling: touch;
   overflow-y: auto;
