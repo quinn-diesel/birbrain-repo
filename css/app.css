@@ -2514,14 +2514,14 @@ h1, h2 {
       font-size: 2em; } }
 
 h1 {
-  margin-top: 70px; }
+  margin-top: 40px; }
   @media screen and (max-width: 767px) {
     h1 {
       margin-top: 0px; } }
 
 h1, h4 {
   margin-bottom: 0px;
-  margin-left: 110px; }
+  margin-left: 80px; }
   @media screen and (max-width: 767px) {
     h1, h4 {
       margin-left: 0px; } }
@@ -2545,12 +2545,13 @@ a {
   position: relative;
   background: 100%;
   width: 100%;
-  top: -250px; }
+  top: -400px; }
+  @media screen and (max-width: 767px) {
+    .full-width {
+      top: -300px; } }
 
 .container {
-  max-width: 2000px;
-  margin-left: 0;
-  top: -1000px; }
+  max-width: 10000px; }
 
 .fa {
   padding: 10px; }
@@ -2603,15 +2604,15 @@ a {
   float: left;
   margin-left: 20px;
   min-height: 200px;
-  width: 100%; }
+  margin-left: -100px;
+  width: 110%; }
 
 .branding {
-  top: -50px;
+  top: -120px;
   text-align: right;
   position: relative;
-  z-index: -1;
   padding-right: -40px;
-  bottom: -250px; }
+  z-index: -1; }
   .branding object {
     width: 600px;
     height: 500px; }
@@ -2625,6 +2626,13 @@ a {
   @media screen and (max-width: 767px) {
     .js-menu-trigger {
       display: inline !important; } }
+
+.placeholder {
+  width: 100px; }
+  .placeholder::after {
+    clear: both;
+    content: "";
+    display: block; }
 
 nav {
   float: right;
@@ -2655,8 +2663,11 @@ footer {
   min-height: 15px;
   width: 100%;
   position: relative;
-  top: -250px;
+  top: -400px;
   margin-left: 0px; }
+  @media screen and (max-width: 767px) {
+    footer {
+      top: -300px; } }
 
 .sliding-panel-content {
   position: fixed;
