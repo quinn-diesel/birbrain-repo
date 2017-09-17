@@ -2606,6 +2606,9 @@ a {
   min-height: 200px;
   margin-left: -100px;
   width: 110%; }
+  @media screen and (max-width: 767px) {
+    .diagonal {
+      margin-left: 0px; } }
 
 .branding {
   top: -120px;
